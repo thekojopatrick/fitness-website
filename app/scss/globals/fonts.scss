@@ -1,0 +1,89 @@
+@use "../util" as *;
+
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+	--header-height: 8rem; // 80px
+
+	/*========== Font Family ==========*/
+	/*.5rem = 8px | 1rem = 16px ...*/
+	--font-family: "Poppins", sans-serif;
+
+	/*========== Font Weight ==========*/
+	--font-medium: 500;
+	--font-semi-bold: 600;
+	--font-bold: 700;
+
+	/*========== Font Sizing ==========*/
+	/* base font size - */
+	--fs-base: 1rem;
+
+	/* larger than heading font sizes */
+	--fs-giga: rem(200);
+	--fs-mega: rem(150);
+	--fs-kilo: rem(100);
+
+	/* heading font sizes */
+	--fs-h1: rem(36);
+	--fs-h2: rem(32);
+	--fs-h3: rem(28);
+	--fs-h4: rem(24);
+	--fs-h5: rem(20);
+	--fs-h6: rem(18);
+
+	/* smaller than heading font sizes */
+	--fs-milli: rem(14);
+	--fs-micro: rem(10);
+	--fs-nano: rem(8);
+
+	/*========== Line Height ==========*/
+
+	/* base font size - */
+	--lh-base: 1rem;
+
+	/* larger than heading font sizes */
+	--lh-giga: rem(170);
+	--lh-mega: rem(120);
+	--lh-kilo: rem(70);
+
+	/* heading font sizes */
+	--lh-h1: rem(36);
+	--lh-h2: rem(32);
+	--lh-h3: rem(28);
+	--lh-h4: rem(24);
+	--lh-h5: rem(20);
+	--lh-h6: rem(18);
+
+	/* smaller than heading font sizes */
+	--lh-milli: rem(14);
+	--lh-micro: rem(10);
+	--lh-nano: rem(8);
+
+	/*========== Letter Spacing ==========*/
+	--ls-giga: rem(2);
+	--ls-mili: rem(0.83);
+	--ls-micro: rem(0.5);
+
+	// Responsive typography
+	@media screen and (max-width: 1149px) {
+	}
+
+	@media screen and (min-width: 968px) {
+	}
+
+	@media screen and (max-width: 768px) {
+	}
+
+	/*========== Margenes ==========*/
+	/*.5rem = 8px | 1rem = 16px ...*/
+	--m-0-5: 0.5rem;
+	--m-0-75: 0.75rem;
+	--m-1: 1rem;
+	--m-1-5: 1.5rem;
+	--m-2: 2rem;
+	--m-2-5: 2.5rem;
+
+	/*========== Z-Index ==========*/
+	--z-fixed: 100;
+}

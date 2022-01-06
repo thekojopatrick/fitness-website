@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!--=============== REMIX ICONS ===============-->
+		<link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+		<!--=============== CSS ==================-->
+		<link rel="stylesheet" href="/dist/style.css" />
+
+		<!--=============== ALL JS ===============-->
+		<script defer src="/dist/script.js"></script>
+
+		<title>Fitness Website - Kojo Patrick</title>
+	</head>
+
+	<body class="container">
+		<!--================= HEADER =================-->
+		<header class="header">
+			<nav class="nav">
+				<a href="#" class="nav__logo">Workout</a>
+
+				<div class="nav_menu">
+					<ul class="nav__list">
+						<li class="nav__item">Link</li>
+						<li class="nav__item">Link</li>
+						<li class="nav__item">Link</li>
+						<li class="nav__item">Link</li>
+					</ul>
+
+					<div class="nav__close" id="nav-close">
+						<i class="ri-close-line"></i>
+					</div>
+				</div>
+
+				<div class="nav__btns">
+					<!--Change Website Theme-->
+					<i class="ri-moon-line change-theme" id="theme-button"></i>
+				</div>
+			</nav>
+		</header>
+
+		<main class="main">
+			<!--==================== HERO ====================-->
+			<section class="hero" id="hero">
+				<div class="hero__container grid">
+					<div class="hero__tag">
+						<span class="hero__tag--status">New</span>
+						<span class="hero__tag--info">High Intensity workout to burn calories</span>
+					</div>
+					<header class="hero__header">
+						<div class="hero-left">
+							<h1 class="hero__heading">Cardio Exercise</h1>
+							<p class="hero__desc">
+								Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
+								fugiat veniam occaecat fugiat aliqua.
+							</p>
+							<div class="hero__btns">
+								<button class="btn btn--primary">Get Started</button>
+								<button class="btn btn--secondary">Preview</button>
+							</div>
+						</div>
+						<div class="hero-right">
+							<img src="app/img/hero-img.png" alt="Girl Exercise" class="hero__img" />
+							<div class="card time">
+								<div class="card__title timer" id="time">38:14</div>
+								<div class="card__subtitle">Time</div>
+							</div>
+							<div class="card cal">
+								<div class="card__title calories">165</div>
+								<div class="card__subtitle">EST CALORIES</div>
+							</div>
+						</div>
+					</header>
+				</div>
+			</section>
+
+			<!--==================== EXERCISES ====================-->
+			<section class="exercises" id="exercises">
+				<div class="exercises__container">
+					<header class="exercises__header">
+						<h2 class="exercises__heading">Popular Exercise</h2>
+						<a href="#more" class="btn btn--link">See more exercises</a>
+					</header>
+					<div class="tutorials">
+						<figure class="tutorial-card">
+							<img src="app/img/tutorials/tut-img1.png" alt="" class="tutorial-card__img" />
+							<figcaption>
+								<div class="tutorial-card__header">
+									<h3 class="tutorial-card__title">Treadmill</h3>
+									<span class="tutorial-card__timer">58:24</span>
+								</div>
+								<p class="tutorial-card__subdesc">250 est calories</p>
+							</figcaption>
+						</figure>
+						<figure class="tutorial-card">
+							<img src="app/img/tutorials/tut-img2.png" alt="" class="tutorial-card__img" />
+							<figcaption>
+								<div class="tutorial-card__header">
+									<h3 class="tutorial-card__title">Stretching</h3>
+									<span class="tutorial-card__timer">58:24</span>
+								</div>
+								<p class="tutorial-card__subdesc">250 est calories</p>
+							</figcaption>
+						</figure>
+						<figure class="tutorial-card">
+							<img src="app/img/tutorials/tut-img3.png" alt="" class="tutorial-card__img" />
+							<figcaption>
+								<div class="tutorial-card__header">
+									<h3 class="tutorial-card__title">Yoga</h3>
+									<span class="tutorial-card__timer">58:24</span>
+								</div>
+								<p class="tutorial-card__subdesc">250 est calories</p>
+							</figcaption>
+						</figure>
+						<figure class="tutorial-card">
+							<img src="app/img/tutorials/tut-img4.png" alt="" class="tutorial-card__img" />
+							<figcaption>
+								<div class="tutorial-card__header">
+									<h3 class="tutorial-card__title">Running</h3>
+									<span class="tutorial-card__timer">58:24</span>
+								</div>
+								<p class="tutorial-card__subdesc">250 est calories</p>
+							</figcaption>
+						</figure>
+						<figure class="tutorial-card">
+							<img src="app/img/tutorials/tut-img5.png" alt="" class="tutorial-card__img" />
+							<figcaption>
+								<div class="tutorial-card__header">
+									<h3 class="tutorial-card__title">Lifting</h3>
+									<span class="tutorial-card__timer">58:24</span>
+								</div>
+								<p class="tutorial-card__subdesc">250 est calories</p>
+							</figcaption>
+						</figure>
+						<figure class="tutorial-card">
+							<img src="app/img/tutorials/tut-img6.png" alt="" class="tutorial-card__img" />
+							<figcaption>
+								<div class="tutorial-card__header">
+									<h3 class="tutorial-card__title">PushUp</h3>
+									<span class="tutorial-card__timer">58:24</span>
+								</div>
+								<p class="tutorial-card__subdesc">250 est calories</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+			<!--==================== TRAINERS ====================-->
+			<section class="trainers">
+				<div class="trainers__container">
+					<h2 class="trainers__heading">Workout Program Made For You</h2>
+					<img src="app/img/illustration.png" alt="Artwork" class="trainers__artwork" />
+					<div class="trainers-box">
+						<div class="trainers-box__content">
+							<p class="trainers__desc">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua consectetur adipiscing.
+							</p>
+							<button class="btn btn--primary">Get Started</button>
+						</div>
+					</div>
+					<article class="trainer">
+						<img src="/app/img/trainers/trainer1.png" alt="Samantha William" class="trainer__img" />
+						<h3 class="trainer__name">Samantha William</h3>
+						<p class="trainer__title">Trainer</p>
+					</article>
+					<article class="trainer">
+						<img src="/app/img/trainers/trainer2.png" alt="Jonathan Wise" class="trainer__img" />
+						<h3 class="trainer__name">Jonathan Wise</h3>
+						<p class="trainer__title">Trainer</p>
+					</article>
+					<article class="trainer">
+						<img src="/app/img/trainers/trainer3.png" alt="Karen Summer" class="trainer__img" />
+						<h3 class="trainer__name">Karen Summer</h3>
+						<p class="trainer__title">Trainer</p>
+					</article>
+				</div>
+			</section>
+
+			<!--==================== PROGRAMS ====================-->
+			<section class="programs">
+				<div class="program__menu">
+					<ul class="program__list">
+						<li class="program__item">
+							<span class="program__num">01</span>
+							<div class="program-content">
+								<h4 class="program__title">Workout at Home</h4>
+								<p class="program__subdesc">15 videos</p>
+							</div>
+							<a href="#" class="btn btn--arrow">
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</li>
+						<li class="program__item">
+							<span class="program__num">02</span>
+							<div class="program-content">
+								<h4 class="program__title">Stay Strong and Fit</h4>
+								<p class="program__subdesc">48 videos</p>
+							</div>
+							<a href="#" class="btn btn--arrow">
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</li>
+						<li class="program__item">
+							<span class="program__num">03</span>
+							<div class="program-content">
+								<h4 class="program__title">High Intensity</h4>
+								<p class="program__subdesc">25 videos</p>
+							</div>
+							<a href="#" class="btn btn--arrow">
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</li>
+						<li class="program__item">
+							<span class="program__num">04</span>
+							<div class="program-content">
+								<h4 class="program__title">Simple Workout</h4>
+								<p class="program__subdesc">35 videos</p>
+							</div>
+							<a href="#" class="btn btn--arrow">
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</li>
+						<li class="program__item">
+							<span class="program__num">01</span>
+							<div class="program-content">
+								<h4 class="program__title">Burn Calories</h4>
+								<p class="program__subdesc">48 videos</p>
+							</div>
+							<a href="#" class="btn btn--arrow">
+								<i class="ri-arrow-right-line"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
