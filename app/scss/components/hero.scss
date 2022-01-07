@@ -1,0 +1,57 @@
+@use "../util" as *;
+/*=========== HERO ==============*/
+.hero {
+	&__container {
+		display: grid;
+		gap: rem(8);
+	}
+
+	&__tag {
+		display: flex;
+		align-items: center;
+		background: lighten(#000000, 10%);
+		padding: rem(8);
+		border-radius: 50vh;
+
+		&--status {
+			flex-basis: 50px;
+			font-size: var(--fs-micro);
+			font-weight: var(--fw-semibold);
+			text-align: center;
+			text-transform: uppercase;
+			line-height: var(--fs-h6);
+			letter-spacing: var(--ls-mega);
+			background: var(--clr-primary);
+			padding: rem(8);
+			border-radius: 10vh;
+		}
+
+		&--info {
+			padding: rem(8);
+		}
+	}
+
+	&__header {
+		margin: rem(24) 0;
+	}
+
+	&__heading {
+		$spacing: rem(2);
+		font-size: var(--display-text);
+		line-height: var(--lh-giga);
+		letter-spacing: neg($spacing);
+	}
+
+	&__desc {
+		line-height: rem(29);
+		letter-spacing: var(--ls-micro);
+		color: darken(#ffffff, 50%);
+        margin: rem(50) 0;
+	}
+
+	&__btns {
+		display: flex;
+		align-items: center;
+		gap: rem(30);
+	}
+}

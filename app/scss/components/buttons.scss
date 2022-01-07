@@ -1,0 +1,19 @@
+.btn {
+	font-weight: var(--fw-semibold);
+	font-size: var(--button-text);
+	line-height: var(--lh-h5);
+	letter-spacing: 1px;
+	padding: 24px 40px;
+	border: none;
+	border-radius: 10px;
+	color: var(--text-color);
+	cursor: pointer;
+
+	&--primary {
+		background-color: var(--clr-primary);
+	}
+
+	&--secondary {
+		background-color: lighten($color: #000000, $amount: 10%);
+	}
+}
