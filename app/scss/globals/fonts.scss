@@ -20,50 +20,51 @@
 	--fs-base: 1rem;
 
 	/* larger than heading font sizes */
-	--fs-giga: rem(200);
-	--fs-mega: rem(150);
-	--fs-kilo: rem(100);
+	--fs-giga: 12.5rem;//200px
+	--fs-mega: 9.375rem;//150px
+	--fs-kilo: 6.25rem;//100px
 
 	/* heading font sizes */
-	--fs-h1: rem(36);
-	--fs-h2: rem(32);
-	--fs-h3: rem(28);
-	--fs-h4: rem(24);
-	--fs-h5: rem(20);
-	--fs-h6: rem(18);
+	--fs-h1: 2.25rem; //36px
+	--fs-h2: 2rem; //32px
+	--fs-h3: 1.75rem; //28px
+	--fs-h4: 1.5rem; //24px
+	--fs-h5: 1.25rem; //20px
+	--fs-h6: 1.125rem; //18px
 
 	/* smaller than heading font sizes */
-	--fs-milli: rem(14);
-	--fs-micro: rem(10);
-	--fs-nano: rem(8);
+	--fs-milli: 0.75rem;//12px
+	--fs-micro: 0.625rem;//10px
+	--fs-nano: 0.5rem;//8px
 
 	/*========== Line Height ==========*/
 
-	/* base font size - */
+	/* base line height - */
 	--lh-base: 1rem;
 
-	/* larger than heading font sizes */
-	--lh-giga: rem(170);
-	--lh-mega: rem(120);
-	--lh-kilo: rem(70);
+	/* larger than heading line height */
+	--lh-giga: 10.625rem;//170px
+	--lh-mega: 7.5rem;//120px
+	--lh-kilo: 4.375rem;//70px
 
-	/* heading font sizes */
-	--lh-h1: rem(36);
-	--lh-h2: rem(32);
-	--lh-h3: rem(28);
-	--lh-h4: rem(24);
-	--lh-h5: rem(20);
-	--lh-h6: rem(18);
+	/* heading line height */
+	--lh-h1: 2.25rem; //36px
+	--lh-h2: 2rem; //32px
+	--lh-h3: 1.75rem; //28px
+	--lh-h4: 1.5rem; //24px
+	--lh-h5: 1.25rem; //20px
+	--lh-h6: 1.375rem; //22px
 
-	/* smaller than heading font sizes */
-	--lh-milli: rem(14);
-	--lh-micro: rem(10);
-	--lh-nano: rem(8);
+	/* smaller than heading line height */
+	--lh-milli: 0.75rem;//12px
+	--lh-micro: 0.625rem;//10px
+	--lh-nano: 0.5rem;//8px
 
 	/*========== Letter Spacing ==========*/
-	--ls-giga: rem(2);
-	--ls-mili: rem(0.83);
-	--ls-micro: rem(0.5);
+	--ls-giga: 0.125rem;//2px
+	--ls-mega: 0.094rem;//1.5px
+	--ls-milli: 0.05rem;//0.8px
+	--ls-micro: 0.03125rem;//0.5px
 
 	// Responsive typography
 	@media screen and (max-width: 1149px) {

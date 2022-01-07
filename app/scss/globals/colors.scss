@@ -16,12 +16,13 @@
 	--light-text1: hsl(230, 12%, 44%);
 	--light-text2: hsl(230, 17%, 14%);
 	--dark-card: var(--clr-black);
+	--dark-bg:var(--clr-black);
 	--light-bg: var(--clr-base);
-	--dark-text1: var(--clr-base-lt);
-	--dark-text2: var(--clr-base);
-	--background: var(--light-bg);
-	--text-color: var(--light-text2);
-	--text-color2: var(--light-text1);
+	--dark-text1: var(--clr-base);
+	--dark-text2: var(--clr-base-lt);
+	--background: var(--dark-bg);
+	--text-color: var(--dark-text1);
+	--text-color2: var(--dark-text2);
 	--toggle: var(--toggle-light);
 	--toggle-bg: var(--toggle-bg-light);
 	--toggle-button: var(--toggle-button-light);

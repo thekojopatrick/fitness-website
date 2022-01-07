@@ -1,0 +1,67 @@
+@use "../util" as *;
+/*=========== HEADER ==============*/
+.header {
+	height: var(--header-height);
+	display: flex;
+	align-items: center;
+	.nav {
+		display: flex;
+		align-items: center;
+		width: 100vw;
+
+		&__logo {
+			color: var(--text-color);
+			font-size: var(--fs-h6);
+			line-height: var(--lh-h6);
+			letter-spacing: var(--ls-milli);
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+
+		&__menu {
+			flex-grow: 1;
+			display: flex;
+			align-items: center;
+			justify-content: end;
+			margin: rem(16);
+		}
+
+		&__list {
+			display: flex;
+			gap: rem(50);
+			align-items: center;
+			margin: rem(8);
+			list-style: none;
+			text-decoration: none;
+		}
+
+		&__item {
+			font-size: var(--fs-milli);
+			line-height: var(--lh-milli);
+			letter-spacing: var(--ls-mega);
+			color: var(--text-color2);
+			text-transform: uppercase;
+			padding: rem(8);
+			cursor: pointer;
+			transition: all 0.3s ease-in;
+
+			&:hover,
+			:active {
+				color: var(--text-color);
+				background: var(--dark-card-hover);
+			}
+		}
+
+		&__close {
+			display: none;
+		}
+
+		&__btns {
+			&:hover,
+			:active,
+			:focus {
+				color: var(--clr-secondary);
+			}
+		}
+	}
+}
