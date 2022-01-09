@@ -46,7 +46,7 @@
 		line-height: rem(29);
 		letter-spacing: var(--ls-micro);
 		color: darken(#ffffff, 50%);
-        margin: rem(50) 0;
+		margin: rem(50) 0;
 	}
 
 	&__btns {
@@ -54,4 +54,12 @@
 		align-items: center;
 		gap: rem(30);
 	}
+}
+
+.timer {
+	color: var(--clr-secondary);
+}
+
+.calories {
+	color: var(--clr-tertiary);
 }

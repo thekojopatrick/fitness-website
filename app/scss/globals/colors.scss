@@ -21,7 +21,7 @@
 	--dark-text1: var(--clr-base);
 	--dark-text2: var(--clr-base-lt);
 	--background: var(--dark-bg);
-	--text-color: var(--dark-text1);
+	--text-color: var(--clr-base);
 	--text-color2: var(--dark-text2);
 	--toggle: var(--toggle-light);
 	--toggle-bg: var(--toggle-bg-light);
@@ -31,15 +31,15 @@
 }
 
 @media (prefers-color-scheme: dark) {
-	:root {
-		--background: var(--dark-bg);
-		--text-color: var(--dark-text2);
-		--text-color2: var(--dark-text1);
-		--card-bg: linear-gradient(180deg, var(--dark-card) 80%, var(--dark-card) 100%);
-		--toggle: var(--light-bg);
-		--toggle-bg: linear-gradient(225deg, var(--toggle-bg-end) 0%, var(--toggle-bg-start) 98.02%);
-		--toggle-button: var(--dark-bg);
-	}
+	// :root {
+	// 	--background: var(--dark-bg);
+	// 	--text-color: var(--dark-text2);
+	// 	--text-color2: var(--dark-text1);
+	// 	--card-bg: linear-gradient(180deg, var(--dark-card) 80%, var(--dark-card) 100%);
+	// 	--toggle: var(--light-bg);
+	// 	--toggle-bg: linear-gradient(225deg, var(--toggle-bg-end) 0%, var(--toggle-bg-start) 98.02%);
+	// 	--toggle-button: var(--dark-bg);
+	// }
 }
 
 body.light {
