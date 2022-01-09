@@ -1,0 +1,26 @@
+@use "../util" as *;
+/*========== EXERCISES ===========*/
+
+.exercises {
+	width: 100%;
+	margin: rem(100) 0;
+	&__container {
+		width: 100%;
+	}
+
+	&__header {
+		display: flex;
+		align-items: baseline;
+		justify-content: space-between;
+	}
+}
+
+.tutorials {
+	width: 100%;
+	display: flex;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-wrap: wrap;
+	gap: rem(40);
+	margin: rem(50) 0;
+}

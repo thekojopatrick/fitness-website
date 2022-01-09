@@ -26,3 +26,63 @@
 		row-gap: 10px;
 	}
 }
+
+.tutorial-card {
+	max-width: 30%;
+	min-width: rem(200);
+
+	&__img {
+		max-width: 100%;
+		height: auto;
+		border-radius: rem(10);
+	}
+
+	&__caption {
+		transform: translateY(-40px);
+		display: flex;
+		flex-direction: column;
+		row-gap: rem(15);
+		padding-left: rem(20);
+	}
+
+	&__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__title {
+		font-weight: var(--fw-semibold);
+		font-size: var(--fs-h1);
+		line-height: var(--lh-h1);
+		letter-spacing: var(--ls-micro);
+	}
+
+	&__timer {
+		font-weight: var(--fw-semibold);
+		font-size: var(--fs-h5);
+		line-height: var(--lh-h6);
+		letter-spacing: var(--ls-mega);
+		padding: rem(10);
+		border-radius: 50vh 0 0 50vh;
+		background-color: var(--clr-black);
+	}
+
+	&__subdesc {
+		font-weight: normal;
+		font-size: var(--fs-milli);
+		line-height: rem(14);
+		letter-spacing: var(--ls-micro);
+		opacity: 0.67;
+	}
+}
+
+.img-container {
+	position: relative;
+	&::after {
+		content: "";
+		position: absolute;
+		inset: 0px;
+		background: var(--card-bg);
+	}
+}

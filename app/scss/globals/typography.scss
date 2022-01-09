@@ -13,8 +13,17 @@ a:active {
 	text-decoration: none;
 }
 
+a:hover,
+a:active {
+	color: var(--clr-primary);
+}
+
 .heading {
 	&--1 {
 		font-size: var(--fs-h1);
+	}
+
+	&--2 {
+		font-size: var(--fs-h2);
 	}
 }

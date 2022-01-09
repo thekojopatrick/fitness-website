@@ -16,7 +16,7 @@
 	--light-text1: hsl(230, 12%, 44%);
 	--light-text2: hsl(230, 17%, 14%);
 	--dark-card: var(--clr-black);
-	--dark-bg:var(--clr-black);
+	--dark-bg: var(--clr-black);
 	--light-bg: var(--clr-base);
 	--dark-text1: var(--clr-base);
 	--dark-text2: var(--clr-base-lt);
@@ -28,6 +28,7 @@
 	--toggle-button: var(--toggle-button-light);
 	--button-primary-color: var(--clr-primary);
 	--button-secondary-color: var(--clr-base-lt);
+	--card-bg: linear-gradient(180deg, hsla(0, 0%, 0%, 0) 80%, hsl(0, 0%, 0%) 100%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,7 +47,6 @@ body.light {
 	--background: var(--light-bg);
 	--text-color: var(--light-text2);
 	--text-color2: var(--light-text1);
-	--card-bg: linear-gradient(180deg, var(--dark-card) 80%, var(--dark-card) 100%);
 	--toggle: var(--toggle-light);
 	--toggle-bg: var(--toggle-bg-light);
 	--toggle-button: var(--toggle-button-light);
@@ -56,7 +56,6 @@ body.dark {
 	--background: var(--dark-bg);
 	--text-color: var(--dark-text2);
 	--text-color2: var(--dark-text1);
-	--card-bg: linear-gradient(180deg, var(--dark-card) 80%, var(--dark-card) 100%);
 	--card-hover: var(--dark-card-hover);
 	--toggle: var(--light-bg);
 	--toggle-bg: linear-gradient(225deg, var(--toggle-bg-end) 0%, var(--toggle-bg-start) 98.02%);

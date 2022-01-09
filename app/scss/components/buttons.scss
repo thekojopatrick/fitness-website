@@ -16,4 +16,16 @@
 	&--secondary {
 		background-color: lighten($color: #000000, $amount: 10%);
 	}
+
+	&--link {
+		font-size: var(--fs-milli);
+		color: lighten($color: #000000, $amount: 67%);
+		text-transform: uppercase;
+
+		&:active,
+		&:focus,
+		&:hover {
+			color: var(--clr-primary);
+		}
+	}
 }
