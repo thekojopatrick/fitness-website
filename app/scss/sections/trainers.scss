@@ -1,0 +1,55 @@
+@use "../util" as *;
+/*=========== TRAINERS ==============*/
+
+.trainers {
+	&__containers {
+	}
+
+	&__header {
+		position: relative;
+	}
+
+	&__heading {
+		$spacing: 2px;
+		font-weight: var(--fw-semibold);
+		font-size: var(--fs-mega);
+		line-height: var(--lh-mega);
+		letter-spacing: neg($spacing);
+	}
+
+	&__desc {
+		font-size: var(--fs-h4);
+		line-height: var(-lh-h1);
+		letter-spacing: var(--ls-micro);
+		opacity: 0.7;
+	}
+
+	&__artwork {
+		position: absolute;
+		left: -5%;
+		bottom: -20%;
+		z-index: -1;
+	}
+}
+
+.trainer {
+	&__img {
+		margin-bottom: rem(10);
+	}
+	&__name {
+		font-weight: normal;
+		font-weight: var(--fw-medium);
+		font-size: var(--fs-h5);
+		line-height: rem(25);
+		letter-spacing: var(--ls-micro);
+	}
+
+	&__title {
+		font-weight: normal;
+		font-size: var(--fs-milli);
+		line-height: var(--fs-milli);
+		letter-spacing: var(--ls-micro);
+		margin-top: rem(5);
+		opacity: 0.5;
+	}
+}

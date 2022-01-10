@@ -21,13 +21,18 @@ body {
 .icon {
 	font-size: 1.6rem;
 	line-height: var(--lh-base);
-	padding: .5rem;
-	transition: all .3s ease-out;
+	padding: 0.5rem;
+	transition: all 0.3s ease-out;
 	cursor: pointer;
-	border-radius: .5rem;
+	border-radius: 0.5rem;
 	&:hover,
 	:active {
 		color: var(--text-color);
 		background: var(--dark-card-hover);
 	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
