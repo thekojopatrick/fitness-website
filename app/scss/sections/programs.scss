@@ -1,0 +1,49 @@
+@use "../util" as *;
+/*=========== PROGRAMS ==============*/
+
+.programs {
+	margin: rem(100) 0;
+}
+
+.program {
+	&__list {
+		display: flex;
+		flex-direction: column;
+		row-gap: rem(10);
+		list-style: none;
+	}
+
+	&__item {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: rem(40) 0;
+		border-bottom: 0.5px solid darken(#ffffff, 40%);
+	}
+
+	&-content {
+		flex-basis: 40%;
+		margin: auto;
+	}
+
+	&__num {
+		font-weight: var(--fw-semibold);
+		font-size: var(--fs-h4);
+		line-height: var(--lh-h2);
+		opacity: 0.34;
+	}
+
+	&__title {
+		font-weight: normal;
+		font-size: var(--fs-h1);
+		line-height: var(--lh-kilo);
+		letter-spacing: var(--ls-milli);
+	}
+
+	&__subdesc {
+		font-size: var(--fs-milli);
+		line-height: var(--lh-h5);
+		letter-spacing: var(--ls-micro);
+		opacity: 0.5;
+	}
+}
