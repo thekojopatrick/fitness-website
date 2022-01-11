@@ -31,14 +31,15 @@
 	&__img {
 		grid-column: 1/-1;
 		grid-row: 1/-1;
-		background-image: url("/app/img/hero-img2.png");
-		background-position: 35% 42%;
-		z-index: -1;
+		background-image: url("/app/img/hero-img3.png");
+		background-position: 35% 45%;
+		height: 44rem;
+		z-index: 1;
 	}
 
 	&__card-group {
-		grid-column: 5/-1;
-		grid-row: 1/3;
+		grid-column: 6/-1;
+		grid-row: 2/4;
 		z-index: 10;
 	}
 
