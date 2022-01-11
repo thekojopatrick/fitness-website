@@ -1,4 +1,5 @@
 @use "../util" as *;
+
 /*=========== HEADER ==============*/
 .header {
 	height: var(--header-height);
@@ -43,12 +44,13 @@
 			text-transform: uppercase;
 			padding: rem(8);
 			cursor: pointer;
-			transition: all 0.3s ease-in;
+			transition: background 0.3s ease-in;
 
 			&:hover,
 			:active {
-				color: var(--text-color);
-				background: var(--dark-card-hover);
+				color: var(--clr-primary);
+				background: var(--nav-link-hover-bg);
+				border-radius: rem(4);
 			}
 		}
 

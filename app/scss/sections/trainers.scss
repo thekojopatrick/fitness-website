@@ -1,6 +1,6 @@
 @use "../util" as *;
-/*=========== TRAINERS ==============*/
 
+/*=========== TRAINERS ==============*/
 .trainers {
 	&__container {
 		display: grid;
@@ -18,7 +18,7 @@
 	&-box {
 		grid-column: 4/-1;
 		grid-row: 1/4;
-		background: lighten($color: #000000, $amount: 10%);
+		background: var(--box-bg);
 		display: flex;
 		align-items: center;
 		justify-content: center;

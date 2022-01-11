@@ -54,6 +54,7 @@
 	&__title {
 		font-weight: var(--fw-semibold);
 		font-size: var(--fs-h1);
+		color: var(--text-color-lt);
 		line-height: var(--lh-h1);
 		letter-spacing: var(--ls-micro);
 	}
@@ -65,7 +66,7 @@
 		letter-spacing: var(--ls-mega);
 		padding: rem(10);
 		border-radius: 50vh 0 0 50vh;
-		background-color: var(--clr-black);
+		background-color: var(--timer-bg);
 	}
 
 	&__subdesc {
@@ -83,6 +84,6 @@
 		content: "";
 		position: absolute;
 		inset: 0px;
-		background: var(--card-bg);
+		background: var(--card-overlay);
 	}
 }
