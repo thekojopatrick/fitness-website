@@ -2,11 +2,31 @@
 /*=========== TRAINERS ==============*/
 
 .trainers {
-	&__containers {
+	&__container {
+		display: grid;
+		grid-template-columns: repeat(11, minmax(min-content, 1fr));
+		grid-template-rows: repeat(8, minmax(rem(50), 1fr));
 	}
 
 	&__header {
 		position: relative;
+		grid-column: 1/6;
+		grid-row: 1/4;
+		z-index: 10;
+	}
+
+	&-box {
+		grid-column: 4/-1;
+		grid-row: 1/4;
+		background: lighten($color: #000000, $amount: 10%);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		&__content {
+			margin: auto rem(120);
+			transform: translateX(20%);
+		}
 	}
 
 	&__heading {
@@ -22,12 +42,13 @@
 		line-height: var(-lh-h1);
 		letter-spacing: var(--ls-micro);
 		opacity: 0.7;
+		margin-bottom: rem(40);
 	}
 
 	&__artwork {
 		position: absolute;
 		left: -5%;
-		bottom: -20%;
+		bottom: 0%;
 		z-index: -1;
 	}
 }
@@ -51,5 +72,19 @@
 		letter-spacing: var(--ls-micro);
 		margin-top: rem(5);
 		opacity: 0.5;
+	}
+
+	&-1 {
+		grid-column: 1/4;
+		grid-row: 4/-1;
+	}
+	&-2 {
+		grid-column: 6/-1;
+		grid-row: 4/7;
+		transform: translateY(-10%);
+	}
+	&-3 {
+		grid-column: 4/8;
+		grid-row: 7/-1;
 	}
 }
