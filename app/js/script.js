@@ -13,7 +13,7 @@ const getCurrentIcon = () => (themeBtn.classList.contains(iconTheme) ? "ri-moon-
 
 if (selectedTheme) {
 	document.body.classList[selectedTheme === "light" ? "add" : "remove"](lightTheme);
-	themeBtn.classList[selectedIcon === "ri-sun-line" ? "add" : "remove"](iconTheme);
+	themeBtn.classList[selectedIcon === "ri-moon-line" ? "add" : "remove"](iconTheme);
 }
 
 themeBtn.addEventListener("click", () => {
