@@ -1,6 +1,11 @@
+@use "../util" as *;
 html {
-	font-size: 100%;
+	font-size: 62.5%;
 	box-sizing: border-box;
+
+	@include breakpoint(large) {
+		font-size: 100%;
+	}
 }
 
 *,
